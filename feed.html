@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/img/me.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emoji-mart@3.0.0/css/emoji-mart.css" />
+  <link rel="stylesheet" href="dist/styles.css">
+  <title>Social Media</title>
+</head>
+<body>
+<header>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">Social Media</label>
+    <ul>
+      <li><a class="active" href="/feed.html">Feed</a></li>
+      <li><a href="/users.html">Users</a></li>
+      <li><a href="/profile.html">Profile</a></li>
+      <li><a href="/index.html">Logout</a></li>
+    </ul>
+  </nav>
+</header>
+
+<h1 id="usernameDisplay"></h1>
+<h4 id="emailDisplay"></h4>
+<a href="index.html" style="color:white;">Login</a>
+
+
+<main class="content">
+  
+  <section class="post">
+    <div class="wrapper">
+
+      <h1>Post</h1>
+      <form id="postForm">
+        <label for="content">Content:</label>
+        <textarea id="content" rows="5" required></textarea>
+
+        <button id="create-new-post" type="submit">👾+Create New Post</button>
+      </form>
+
+      <input type="text" id="searchInput" placeholder="Search...">
+
+        <select id="sortOrder">
+          <option class="orderSelect" value="newest">Newest First</option>
+          <option class="orderSelect" value="oldest">Oldest First</option>
+        </select>
+
+        <div id="postContainer">
+        </div>
+
+
+    </div>
+  </section>
+
+</main>
+
+  <footer>© 2023 Didrik Hansen</footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/emoji-mart@latest/dist/browser.js"></script>
+  <script src="/js/post.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Registration</title>
+  <link rel="stylesheet" type="text/css" href="dist/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>User Registration</h2>
+    <form id="registrationForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="username">Username:</label>
+      <input type="username" id="username" name="username" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      
+      <label for="avatar">Avatar:</label>
+      <input type="file" id="avatar" accept="image/*" required>
+      
+      <label for="banner">Banner:</label>
+      <input type="file" id="banner" accept="image/*" required>
+      
+      <button type="submit">Register</button>
+
+      <a href="index.html" style="color:white;">Login</a>
+    </form>
+    <p id="message"></p>
+  </div>
+
+  <script type="text/javascript" src="/js/register.js"></script>
+</body>
+</html>

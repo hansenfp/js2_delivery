@@ -1,0 +1,21 @@
+section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 80rem;
+  justify-content: center;
+  border: 2px dotted rgba(100, 100, 100, 0.61);
+  overflow: hidden;
+}
+@media (min-width: 650px) {
+  .wrapper img{
+    margin: 25px 20px;
+    width: 14rem;
+    height: 14rem;
+  }
+}

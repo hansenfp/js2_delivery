@@ -1,0 +1,39 @@
+form * {
+  font-size: 3rem!important;
+}
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+h2 {
+  text-align: center;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: $green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: $green;
+}
+#message {
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+}

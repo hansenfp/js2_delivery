@@ -1,0 +1,9 @@
+NPM I
+
+then
+
+NPM START🔥
+
+http://127.0.0.1:5500/
+
+"sync": "browser-sync start -p 'example.local' --files '**/*.html 'js/*.js 'dist/*.css",
